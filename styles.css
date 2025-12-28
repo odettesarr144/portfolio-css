@@ -2,8 +2,10 @@
     list-style: none;
     display: flex;
     justify-content: flex-end;
+    background-color: #3b3bf2;
+    font-weight: bold;
     gap: 20px;
-    padding: 0;
+    padding: 20px;
     margin: 0;
 }
 
@@ -17,25 +19,43 @@
     transition: 0.3s;
 }
 .acceuil {
+    background-color: bisque;
     display: flex;
+    gap: 10;
     align-items: flex-start;
-    gap: 20px;
-    padding: 0;
+    padding: 10;
+    border-color: azure;
 }
 .acceuil-img {
     width: 500px;
     height: 200px;
 }
 .acceuil-text h1 {
-    margin: 0 0 10px 0;
+    margin: 10px;
 }
 .acceuil-text p {
-    margin: 0;
+    margin: 10px;
 }
 body {
-    background-color: blanchedalmond;
+    background-color: bisque;
+
 }
 h2 {
-    text-decoration: underline;
     text-align: center;
+    font-weight: bold;
+    color: #1b0d04;
+    border: 2px solid blue;
+    padding: 8px 12px;
+    background-color: bisque;
+
+
 }
+footer {
+    font-weight: bold;
+    background-color: #3b3bf2;
+    border: 2px solid blue;
+    padding: 8px 12px;
+
+}
+
+
