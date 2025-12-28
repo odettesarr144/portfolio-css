@@ -2,13 +2,17 @@
 <html>
 <head>
     <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    
 </head>
 <body>
 
     <!-- Barre de navigation -->
      <header>
-        <nav>
-            <ul>
+        <nav class="navi">
+            <ul class="navlist">
                 <li><a href="#accueil">Accueil</a></li>
                 <li><a href="#about">À propos</a></li>
                 <li><a href="#work">Travail</a></li>
@@ -17,22 +21,25 @@
             </ul>
         </nav>
      </header>
-     <section id="acceuil"> 
-        <img src="C:\Users\easys\Desktop\image1.jpg" alt="image">
+     <section class="acceuil">
+    <img src="C:\Users\easys\Desktop\image1.jpg" alt="image" class="acceuil-img">
+    <div class="acceuil-text">
         <h1>Mon Portfolio</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercice ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-     </section>
+    </div>
+</section>
+
 
      <section id="about">
         <h2>A propos</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercice ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercice ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercice ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <audio controls>
             <source src="C:\Users\easys\Desktop\Sound.mp3.mp4">
         </audio>
      </section>
      <section id="work">
         <h2>Travail</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercice ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercice ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercice ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <video width="400" controls>
         <source src="C:\Users\easys\Desktop\SOUD TEST.mp4" type="video/mp4">
         </video>
@@ -40,26 +47,26 @@
 
      <section id="cv">
         <h2>CV</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercice ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercice ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercice ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
      </section>
 
      <section id="contact">
         <h2>Contact</h2>
 <form>
     <label for="Nom"> Nom :</label>
-    <input type="text" name="firt name" placeholder="taper votre nom ici"> <br><br>
+    <input type="text" name="firt name"> <br><br>
 
     <label for="Prenom">Prenom :</label>
-    <input type="text" name="prenom"placeholder="taper votre prenom ici"><br><br>
+    <input type="text" name="prenom"><br><br>
 
     <label for="Numéro"> Numéro :</label>
-    <input type="number" name="number" placeholder="taper votre Numéro de téléphone"><br><br>
+    <input type="number" name="number" ><br><br>
 
     <label for="email">Email :</label>
-    <input type="text" name="email" placeholder="taper votre adresse email ici"><br><br>
+    <input type="text" name="email"><br><br>
 
     <label for="adresse">Adresse :</label>
-    <input type="text" name="adresse" placeholder="taper votre adresse ici"><br><br>
+    <input type="email" name="adresse"><br><br> 
 
 
     <textarea name="message"  cols="30" rows="10">
@@ -72,6 +79,7 @@
      </section>
      <!-- Pied de page -->
       <FOoter>
+    
         <P>Decembre 2025 Portfolio</P>
       </FOoter>
 

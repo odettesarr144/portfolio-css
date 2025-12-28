@@ -1,0 +1,44 @@
+.navlist {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.navlist li a {
+    color: oklab(28.975% -0.01747 -0.19525);
+    font-family: 'Roboto', sans-serif;
+}
+
+.navlist li a:hover {
+    color: #ff6600;
+    transition: 0.3s;
+}
+.acceuil {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 0;
+}
+.acceuil-img {
+    width: 500px;
+    height: 200px;
+}
+.acceuil-text h1 {
+    margin: 0 0 10px 0;
+}
+.acceuil-text p {
+    margin: 0;
+}
+body {
+    background-color: blanchedalmond;
+}
+h2 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+
