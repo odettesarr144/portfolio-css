@@ -1,17 +1,20 @@
 .navlist {
     list-style: none;
-    display: flex;
-    justify-content: flex-end;
     background-color: #3b3bf2;
     font-weight: bold;
-    gap: 20px;
     padding: 20px;
     margin: 0;
+    text-align: right;
 }
 
+.navlist li {
+    display: inline-block;
+    margin-left: 20px;
+    
+}
 .navlist li a {
-    color: oklab(28.975% -0.01747 -0.19525);
-    font-family: 'Roboto', sans-serif;
+    color: #1b0d04;
+    font-family: 'Roboto';
 }
 
 .navlist li a:hover {
@@ -20,26 +23,35 @@
 }
 .acceuil {
     background-color: bisque;
-    display: flex;
-    gap: 10;
-    align-items: flex-start;
-    padding: 10;
-    border-color: azure;
+    padding: 10px;
+    border: 1px solid azure;
 }
-.acceuil-img {
-    width: 500px;
-    height: 200px;
-}
-.acceuil-text h1 {
-    margin: 10px;
-}
-.acceuil-text p {
-    margin: 10px;
-}
-body {
-    background-color: bisque;
+
+
+.acceuil-img, .acceuil-text {
+    display: inline-block;
+    vertical-align: top; 
 
 }
+
+.acceuil-img {
+    width: 300px;       
+    height: auto;
+    margin-right: 20px;
+}
+
+.acceuil-text {
+    max-width: 600px;   
+}
+
+
+
+/* page */
+body {
+    background-color: bisque;
+}
+
+/* titre */
 h2 {
     text-align: center;
     font-weight: bold;
@@ -47,15 +59,12 @@ h2 {
     border: 2px solid blue;
     padding: 8px 12px;
     background-color: bisque;
-
-
 }
+
+/* pied de page */
 footer {
     font-weight: bold;
     background-color: #3b3bf2;
     border: 2px solid blue;
     padding: 8px 12px;
-
 }
-
-
