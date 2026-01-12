@@ -3,12 +3,16 @@ header {
     display: flex;
     align-items: center;          
     justify-content: space-between; 
-    background-color: #f5f5f5;
+    background-color: hsl(0, 21%, 6%);
+    color: #f5f5f5;
     position: fixed;
     width: 100%;
     z-index: 8;
     padding-left: 10px;
+    margin-top: 0%;
 }
+
+
 .hero {
     height: 60vh; /* hauteur de la section */
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGAz4t4u7cejNNGTLgfA562eQ17358DO2lyw&s");
@@ -25,8 +29,8 @@ header {
     display: inline-block;   
     padding: 8px 16px;       
     font-size: 14px;
-    background-color: crimson;
-    color: white;
+    background-color: hsl(19, 88%, 53%);
+    color: #f5f5f5;
     text-decoration: none;
     border-radius: 6px;
     margin-top: 15px;
@@ -38,7 +42,10 @@ header {
 .btn-hero:hover {
     background-color: hwb(356 45% 4%);
 }
-
+body {
+    padding: 0;
+    margin: 0;
+}
 
 
 /* LOGO */
@@ -57,23 +64,39 @@ header img {
 
 /* LIENS */
 .navlist li a {
-    text-decoration: none;
-    color: #000;
+    color: white;
     font-weight: 500;
 }
 
 .navlist li a:hover {
     color: hsl(357, 100%, 50%);
 }
-h2 {
-    justify-content: center;
 
-    
-}
 #work {
     display: flex;
-    justify-content: center;
-    border: #000 1px solid;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    gap: 0;
+    box-sizing: border-box;
+
+}
+.p1, .p2, .p3 {
+    flex: 1;
+    padding: 10px;
+    margin: 0;
+      background-color: hsl(19, 93%, 58%);
+    border-radius: 12px;
+    overflow: hidden;
+    
+}
+
+h3 a: :hover {
+    color: hsl(357, 100%, 50%);
+    
+}
+h3 {
+    color: #000;
 }
 h2 {
     display: flex;
@@ -92,7 +115,7 @@ div {
     margin: auto;
     padding: 10px;
     border: 1px solid #000;
-    background-color: #dd4141;
+    background-color: hsl(19, 93%, 58%);
 }
 
 .contact, .message {
@@ -102,8 +125,15 @@ div {
     align-items: center;
     
 }
+.message button {
+
+    background-color: #000;
+    padding: 10px;
+    cursor: pointer;
+    color: #f5f5f5;
+}
 .Footer {
     background-color: black;
     color: #f5f5f5;
     padding: 20px;
-}
+    }
